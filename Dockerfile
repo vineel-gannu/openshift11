@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:7
 MAINTAINER " Priar World"
 LABEL "App"="Devlopemnt"
 RUN yum install httpd -y
